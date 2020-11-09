@@ -8,6 +8,7 @@ class Session;
 class Tree{
 public:
     Tree(int rootLabel);
+    Tree(const Tree& other);
     void addChild(const Tree& child);
 
     static Tree* createTree(const Session& session, int rootLabel);

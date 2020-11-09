@@ -2,9 +2,7 @@
 #include <iostream>
 using namespace std;
 Graph::Graph(std::vector<std::vector<int>> matrix):edges(matrix){}
-void Graph::BFS(int startingNode) {
 
-}
 void Graph::infectNode(int nodeInd) {
     this->statusList[nodeInd]=Infected;
 }

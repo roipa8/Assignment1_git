@@ -14,7 +14,6 @@ enum Status{
 class Graph{
 public:
     Graph(std::vector<std::vector<int>> matrix);
-    void BFS (int startingNode);
     void infectNode(int nodeInd);
     bool isInfected(int nodeInd);
     void setHealthy();
