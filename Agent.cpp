@@ -1,3 +1,7 @@
-//
-// Created by hp on 06-Nov-20.
-//
+#include "Agent.h"
+#include "Session.h"
+
+//void Agent::act(Session &session) {
+//    Graph g1=session.getGraph();
+//    session.
+//}
